@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- Site Metas -->
+   <title>Life Care - Health is Wealth</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- Site Icons -->
+   <link rel="shortcut icon" href="{{ url_for('static', filename='images/fevicon.ico.png') }}" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="{{ url_for('static', filename='images/apple-touch-icon.png') }}">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+   <!-- Site CSS -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   <!-- Colors CSS -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/colors.css') }}">
+   <!-- ALL VERSION CSS -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/versions.css') }}">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+   <!-- Modernizer for Portfolio -->
+   <script src="{{ url_for('static', filename='js/modernizer.js') }}"></script>
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({
+            publicKey: "TiAWPaSGackJ4Tnjz",
+          });
+       })();
+    </script>
+      <script src="script.js"></script>
+</head>
+<body>
+    <br/>
+    <header>
+        <div class="header-top wow fadeIn">
+            <div class="container">
+               <a class="navbar-brand" href="index.html"><img src="static/images/logo.png" alt="image"></a>
+               <div class="right-header">
+                  <div class="header-info">
+                     <div class="info-inner">
+                        <span class="icontop"><img src="static/images/phone-icon.png" alt="#"></span>
+                        <span class="iconcont" style="color: #000;><a href="tel:9618 035 382">9618 035 382</a></span>
+                     </div>
+                     <div class="info-inner">
+                         <span class="icontop"><img src="{{ url_for('static', filename='images/mail.png') }}" alt="#" "></span>
+                         <span class="iconcont">
+                            <a data-scroll href="mailto:info.health164@gmail.com" style="color: #000; text-decoration: none; font-weight: 500;">
+        info.health164@gmail.com</a>
+                         </span>
+                     </div>
+                     <div class="info-inner">
+                         <span class="icontop"><img src="{{ url_for('static', filename='images/clock.png') }}" alt="#"></span>
+                         <span class="iconcont">
+                             <a data-scroll href="#" style="color: #000; text-decoration: none; font-weight: 500;">Daily: 24/7</a>
+
+                         </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </header>
+    <br/>
+    <div>
+        <div id="service" class="services wow fadeIn">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                     <div class="inner-services">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                           <div class="serv">
+                              <span class="icon-service"><img src="static/images/service-icon1.png" alt="#" /></span>
+                              <h4>PREMIUM FACILITIES</h4>
+                              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                           <div class="serv">
+                              <span class="icon-service"><img src="static/images/service-icon2.png" alt="#" /></span>
+                              <h4>LARGE LABORATORY</h4>
+                              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                           <div class="serv">
+                              <span class="icon-service"><img src="static/images/service-icon3.png" alt="#" /></span>
+                              <h4>DETAILED SPECIALIST</h4>
+                              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                           <div class="serv">
+                              <span class="icon-service"><img src="static/images/service-icon4.png" alt="#" /></span>
+                              <h4>CHILDREN CARE CENTER</h4>
+                              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                           <div class="serv">
+                              <span class="icon-service"><img src="static/images/service-icon5.png" alt="#" /></span>
+                              <h4>FINE INFRASTRUCTURE</h4>
+                              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                           <div class="serv">
+                              <span class="icon-service"><img src="static/images/service-icon6.png" alt="#" /></span>
+                              <h4>ANYTIME BLOOD BANK</h4>
+                              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                     <div class="appointment-form">
+                        <h3><span>+</span> Book Appointment</h3>
+
+                           <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+
+    <button type="submit" onclick="sendMail()">Send</button>
+  </form>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
